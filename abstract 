@@ -1,0 +1,12 @@
+In today’s fast-paced software development landscape, efficient deployment strategies are essential to keep up with rapid iteration and delivery cycles. This project presents the implementation of a serverless architecture deployment model using Kubernetes, Jenkins, and Docker—three pivotal tools in modern DevOps pipelines. The core objective of this mini-project is to eliminate the dependency on fixed infrastructure while ensuring continuous integration and deployment (CI/CD) of scalable web applications in a highly automated and resilient environment.
+
+The traditional server-based deployment models often suffer from issues such as resource underutilization, manual scaling, and complex infrastructure management. By adopting a serverless approach, developers can focus more on code and business logic, leaving infrastructure management to automated systems. In our project, Docker is used to containerize the application, ensuring environment consistency across development, testing, and production stages. Jenkins orchestrates the CI/CD pipeline by automating code build, test, and deployment workflows. Kubernetes, acting as the container orchestration platform, enables auto-scaling, load balancing, and zero-downtime deployments through its powerful declarative configuration model.
+
+The entire deployment workflow is triggered by changes pushed to a GitHub repository, which initiates Jenkins pipelines to build Docker images, push them to Docker Hub, and update deployments in Kubernetes clusters using YAML configuration files. This seamless integration of DevOps tools forms a fully automated pipeline that improves agility, reduces human error, and accelerates the software delivery process.
+
+Our solution enables dynamic scaling of resources based on real-time demand, ensures consistent and repeatable deployments, and reduces operational overhead, thereby aligning well with the goals of cloud-native and microservices-based applications. Overall, the project demonstrates how combining serverless principles with container orchestration and automation tools can significantly optimize the development-to-deployment lifecycle in modern software engineering.
+
+
+
+
+ABSTRACT
